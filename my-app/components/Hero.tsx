@@ -7,10 +7,11 @@ const Hero = () => {
             <div className="max-w-md">
             <h1 className="text-5xl font-bold">Hi, I'm Nuno</h1>
             <p className="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                quasi. In deleniti eaque aut repudiandae et a id nisi.
+              I'm a Specialist Programmer (Software Engineer) who specalizes in API development. 
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <p className="py-1">
+              I work with clients to develop web applications, back-end APIs and programs using Python and SQLAlchemy. Scroll down to learn more!
+            </p>
             </div>
         </div>
     </div>
