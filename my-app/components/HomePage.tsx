@@ -14,14 +14,14 @@ const HomePage = () => {
         <SideBar /> 
     </aside>
     <div>
-        <div className="flex-row h-screen w-3/4">
+        <div className="flex-row h-screen w-full md:w-3/4 ">
             <Hero />
         </div>
         <div className="flex-row p-5">
-            <CardsTable cards={WORK_EXPERIENCE_DATA}/>
+            <CardsTable title={WORK_EXPERIENCE_DATA.title} cards={WORK_EXPERIENCE_DATA.cards}/>
         </div>
         <div className="flex-row p-5">
-            <CardsTable cards={PROJECT_DATA}/>
+            <CardsTable title={PROJECT_DATA.title} cards={PROJECT_DATA.cards}/>
         </div>
     </div>
   </div>

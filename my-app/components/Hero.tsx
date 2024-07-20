@@ -10,7 +10,7 @@ const Hero = () => {
               I'm a Specialist Programmer (Software Engineer) who specalizes in API development. 
             </p>
             <p className="py-1">
-              I work with clients to develop web applications, back-end APIs and programs using Python and SQLAlchemy. Scroll down to learn more!
+              I work with clients to develop web applications, back-end APIs and programs using Python and SQLAlchemy.
             </p>
             </div>
         </div>
