@@ -1,54 +1,28 @@
 import React from 'react'
+import { GitHubIcon, MailIcon, LinkedInIcon, PageIcon } from './Icon'
 
 const Footer = () => {
   return (
-<footer className="footer bg-neutral text-neutral-content p-10">
-  <aside>
-    <p>
-      Made with ❤️ in 2024 by Nuno
-      <br />
-      This line is intentionally blank
-    </p>
-  </aside>
- <nav>
-    <h6 className="footer-title">Social</h6>
-    <div className="grid grid-flow-col gap-4">
-      <a>
-        <svg 
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="#ffffff">
-              <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z"/></svg>
-      </a>
-      <a>
-        <svg 
-          xmlns="http://www.w3.org/2000/svg" 
-          width="24" 
-          height="24"
-          fill="#ffffff" 
-          viewBox="0 0 24 24">
-            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-        </svg>
-      </a>
-      <a>
-        <svg 
-          xmlns="http://www.w3.org/2000/svg" 
-          width="24" 
-          height="24" 
-          viewBox="0 0 24 24" 
-          fill="none" 
-          stroke="#ffffffff" 
-          strokeWidth="2" 
-          strokeLinecap="round" 
-          strokeLinejoin="round">
-            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
-        </svg>
-      </a>
-    </div>
-  </nav>
-</footer>
+    <footer className="footer bg-neutral text-neutral-content p-10">
+      <aside>
+        <p>
+          Made with ❤️ in 2024 by Nuno
+          <br />
+          This line is intentionally blank
+        </p>
+      </aside>
+    <nav>
+        <h6 className="footer-title">Social</h6>
+        <div className="grid grid-flow-col gap-4">
+          {/* LINKEDIN ICON */}
+          <LinkedInIcon height={32} width={32} link={"https://www.linkedin.com/in/n-alex-goncalves/"} />
+          {/* GITHUB ICON */}
+          <GitHubIcon height={32} width={32} link={"https://github.com/n-alex-goncalves"}/>
+          {/* MAIL ICON */}
+          <MailIcon height={32} width={32} link={"/"}/>
+        </div>
+      </nav>
+    </footer>
   )
 }
 

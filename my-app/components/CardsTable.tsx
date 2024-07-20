@@ -19,8 +19,9 @@ const CardsTable = ({ title, cards }: CardListProps) => {
             subtitle={card.subtitle}
             date={card.date}
             description={card.description}
-            imageUrl={card.imageUrl}
-            link={card.link}
+            image={card.image}
+            githubLink={card.githubLink}
+            pageLink={card.pageLink}
             skills={card.skills}
           ></Card>
         ))}
