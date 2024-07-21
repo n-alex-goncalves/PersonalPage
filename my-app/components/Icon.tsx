@@ -9,65 +9,82 @@ type IconProps = {
 
 export const GitHubIcon = ({ width, height, link }: IconProps) => {
     return (
-        <Link href={link}>
-            <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                width={width}
-                height={height}
-                fill="#ffffff" 
-                viewBox="0 0 24 24">
-                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-            </svg>
-        </Link>
+        <a className="group" href="#">
+            <Link href={link} target="_blank">
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width={width} 
+                    height={height}
+                    fill="currentColor" 
+                    className="bi bi-github fill-neutral-content hover:fill-slate-50 transition duration-300 ease-in-out"
+                    viewBox="0 0 16 16"
+                >
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+            </Link>
+            <div className="bg-slate-50 mt-1 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+        </a>
     )
 }
 
 export const LinkedInIcon = ({ width, height, link }: IconProps) => {
     return (
-        <Link href={link}>
-            <svg 
-                xmlns="http://www.w3.org/2000/svg"
-                width={width}
-                height={height}
-                viewBox="0 0 24 24"
-                fill="#ffffff">
-                    <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z"/></svg>
-        </Link>
+        <a className="group" href="#">
+            <Link href={link} target="_blank">
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width={width} 
+                    height={height}
+                    fill="currentColor" 
+                    className="bi bi-linkedin fill-neutral-content hover:fill-slate-50 transition duration-300 ease-in-out"
+                    viewBox="0 0 16 16"
+                >
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg>
+            </Link>
+            <div className="bg-slate-50 mt-1 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+        </a>
     )
 }
 
 export const MailIcon = ({ width, height }: IconProps) => {
     return (
-        <Link href="/">
-            <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                width={width} 
-                height={height} 
-                viewBox="0 0 24 24" 
-                fill="none" 
-                stroke="#ffffffff"
-                strokeWidth="2" 
-                strokeLinecap="round" 
-                strokeLinejoin="round">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
-            </svg>
-      </Link>
+        <a className="group" href="#">
+            <Link href="/" target="_blank">
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width={width} 
+                    height={height}
+                    fill="currentColor" 
+                    className="bi bi-envelope fill-neutral-content hover:fill-slate-50 transition duration-300 ease-in-out"
+                    viewBox="0 0 16 16"
+                >
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                </svg>
+            </Link>
+            <div className="bg-slate-50 mt-1 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+        </a>
     )
 }
 
 export const PageIcon = ({ width, height, link }: IconProps) => {
     return (
-        <Link href={link}>
-            <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                width={width} 
-                height={height} 
-                viewBox="0 0 16 16" 
-                fill="#ffffffff" 
-                stroke="#ffffffff">
-                    <path fill="none" d="M16.198,10.896c-0.252,0-0.455,0.203-0.455,0.455v2.396c0,0.626-0.511,1.137-1.138,1.137H5.117c-0.627,0-1.138-0.511-1.138-1.137V7.852c0-0.626,0.511-1.137,1.138-1.137h5.315c0.252,0,0.456-0.203,0.456-0.455c0-0.251-0.204-0.455-0.456-0.455H5.117c-1.129,0-2.049,0.918-2.049,2.047v5.894c0,1.129,0.92,2.048,2.049,2.048h9.488c1.129,0,2.048-0.919,2.048-2.048v-2.396C16.653,11.099,16.45,10.896,16.198,10.896z"></path>
-                    <path fill="none" d="M14.053,4.279c-0.207-0.135-0.492-0.079-0.63,0.133c-0.137,0.211-0.077,0.493,0.134,0.63l1.65,1.073c-4.115,0.62-5.705,4.891-5.774,5.082c-0.084,0.236,0.038,0.495,0.274,0.581c0.052,0.019,0.103,0.027,0.154,0.027c0.186,0,0.361-0.115,0.429-0.301c0.014-0.042,1.538-4.023,5.238-4.482l-1.172,1.799c-0.137,0.21-0.077,0.492,0.134,0.629c0.076,0.05,0.163,0.074,0.248,0.074c0.148,0,0.294-0.073,0.382-0.207l1.738-2.671c0.066-0.101,0.09-0.224,0.064-0.343c-0.025-0.118-0.096-0.221-0.197-0.287L14.053,4.279z"></path>
-            </svg>
-      </Link>
+        <a className="group" href="#">
+            <Link href={link} target="_blank">
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width={width} 
+                    height={height} 
+                    fill="currentColor" 
+                    className="bi bi-arrow-up-right-square fill-neutral-content hover:fill-slate-50 transition duration-300 ease-in-out"
+                    viewBox="0 0 16 16"
+                >
+                    <path 
+                        fill-rule="evenodd" 
+                        d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z"/>
+                </svg>
+            </Link>
+            <div className="bg-slate-50 mt-1 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+        </a>
     )
 }

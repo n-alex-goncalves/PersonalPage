@@ -94,7 +94,7 @@ export const PROJECT_DATA = {
         },
         { 
             title: 'Options Pricing Calculator', 
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laboriosam nihil pariatur nemo sapiente optio molestiae culpa placeat, ratione voluptatem repellat ullam nulla incidunt beatae temporibus harum quibusdam hic.", 
+            description: "Optio molestiae culpa placeat, ratione voluptatem repellat ullam nulla incidunt beatae temporibus harum quibusdam hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laboriosam nihil pariatur nemo sapiente optio molestiae culpa placeat, ratione voluptatem repellat ullam nulla incidunt beatae temporibus harum quibusdam hic.", 
             skills: ['PYTHON', 'FINANCE'],
             githubLink: 'https://github.com/n-alex-goncalves/OptionsPricingCalculator'
         },

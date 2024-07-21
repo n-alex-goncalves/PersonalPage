@@ -11,19 +11,26 @@ const Footer = () => {
           This line is intentionally blank
         </p>
       </aside>
-    <nav>
+      <nav>
         <h6 className="footer-title">Social</h6>
-        <div className="grid grid-flow-col gap-4">
-          {/* LINKEDIN ICON */}
-          <LinkedInIcon height={32} width={32} link={"https://www.linkedin.com/in/n-alex-goncalves/"} />
-          {/* GITHUB ICON */}
-          <GitHubIcon height={32} width={32} link={"https://github.com/n-alex-goncalves"}/>
-          {/* MAIL ICON */}
-          <MailIcon height={32} width={32} link={"/"}/>
+          <div className="grid grid-flow-col gap-4 items-center">
+            {/* LINKEDIN ICON */}
+            <LinkedInIcon height={32} width={32} link={"https://www.linkedin.com/in/n-alex-goncalves/"} />
+            {/* GITHUB ICON */}
+            <GitHubIcon height={32} width={32} link={"https://github.com/n-alex-goncalves"}/>
+            {/* MAIL ICON */}
+            <MailIcon height={32} width={32} link={"/"}/>
         </div>
       </nav>
     </footer>
   )
 }
+
+{/*
+  github
+  linkedin
+  envelope
+  Arrow up right square fill
+  */}
 
 export default Footer

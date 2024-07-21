@@ -10,8 +10,8 @@ const SideBar = () => {
         <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
         <li><Link href="/">Home</Link></li>
         <li><Link href="/Nuno Goncalves CV.pdf">Resume</Link></li>
-        <li><Link href="https://www.linkedin.com/in/n-alex-goncalves/">LinkedIn</Link></li>
-        <li><Link href="https://github.com/n-alex-goncalves">GitHub</Link></li>
+        <li><Link href="https://www.linkedin.com/in/n-alex-goncalves/" target="_blank">LinkedIn</Link></li>
+        <li><Link href="https://github.com/n-alex-goncalves" target="_blank">GitHub</Link></li>
         </ul>
     </div>
     </div>
