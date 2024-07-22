@@ -1,5 +1,5 @@
 import React from 'react'
-import { GitHubIcon, MailIcon, LinkedInIcon, PageIcon } from './Icon'
+import { GitHubIcon, MailIcon, LinkedInIcon } from './Icon'
 
 const Footer = () => {
   return (

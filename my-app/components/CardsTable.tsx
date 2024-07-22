@@ -11,7 +11,7 @@ const CardsTable = ({ title, cards }: CardListProps) => {
     <div>
       {/* TITLE */}
       <h1 className="text-lg px-5 gap-6 text-gray-400">{title}</h1>
-      <div className="grid grid-cols-1 gap-6 p-4 md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-6 p-4 lg:grid-cols-2">
         {cards.map((card, index) => (
           <Card
             key={index}

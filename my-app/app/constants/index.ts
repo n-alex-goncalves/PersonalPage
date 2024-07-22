@@ -9,40 +9,42 @@ export const WORK_EXPERIENCE_DATA = {
             date: 'Aug 2024 - Present', 
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laboriosam nihil pariatur nemo sapiente optio molestiae culpa placeat, ratione voluptatem repellat ullam nulla incidunt beatae temporibus harum quibusdam hic.", 
             image: {
-                url: '/card-image.jpg',
-                width: 512,
-                height: 128
+                url: '/infosys-logo.png',
+                width: 2560,
+                height: 1024
             },
+            skills: ['PYTHON', 'SQLALCHEMY', 'SQL', 'REACT.JS']
         },
         { 
             title: 'Barclays', 
             subtitle: 'LifeSkills Youth Advisory Councillor', 
-            date: 'May 2024 - May 2024', 
+            date: 'Jan 2020 - May 2023', 
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laboriosam nihil pariatur nemo sapiente optio molestiae culpa placeat, ratione voluptatem repellat ullam nulla incidunt beatae temporibus harum quibusdam hic.", 
             image: {
-                url: '/card-image.jpg',
-                width: 512,
-                height: 128
+                url: '/barclays-logo-3.png',
+                width: 2560,
+                height: 1024
             },
         },
         { 
             title: 'Echobox', 
             subtitle: 'Operation Intern', 
-            date: 'May 2024 - May 2024', 
+            date: 'Jul 2021 - May 2023', 
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laboriosam nihil pariatur nemo sapiente optio molestiae culpa placeat, ratione voluptatem repellat ullam nulla incidunt beatae temporibus harum quibusdam hic.", 
             image: {
                 url: '/card-image.jpg',
                 width: 512,
                 height: 128
             },
+            skills: ['JAVA', 'APEX', 'SALESFORCE']
         },
         { 
             title: 'J.P. Morgan', 
             subtitle: 'Spring Into Technology Intern', 
-            date: 'May 2024 - May 2024', 
+            date: 'Mar 2020 - Apr 2020', 
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laboriosam nihil pariatur nemo sapiente optio molestiae culpa placeat, ratione voluptatem repellat ullam nulla incidunt beatae temporibus harum quibusdam hic.", 
             image: {
-                url: '/card-image.jpg',
+                url: '/jp-morgan-logo.svg',
                 width: 512,
                 height: 128
             },
@@ -50,10 +52,10 @@ export const WORK_EXPERIENCE_DATA = {
         { 
             title: 'University of Bath', 
             subtitle: 'Administrative Assistant', 
-            date: 'May 2024 - May 2024',
+            date: 'Nov 2021 - Jun 2022',
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laboriosam nihil pariatur nemo sapiente optio molestiae culpa placeat, ratione voluptatem repellat ullam nulla incidunt beatae temporibus harum quibusdam hic.", 
             image: {
-                url: '/card-image.jpg',
+                url: '/university-of-bath-logo.png',
                 width: 512,
                 height: 128
             },
@@ -61,10 +63,10 @@ export const WORK_EXPERIENCE_DATA = {
         { 
             title: 'University of Bath', 
             subtitle: 'Computer Science Student Ambassador', 
-            date: 'May 2024 - May 2024',
+            date: 'Jan 2020 - Oct 2021',
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laboriosam nihil pariatur nemo sapiente optio molestiae culpa placeat, ratione voluptatem repellat ullam nulla incidunt beatae temporibus harum quibusdam hic.", 
             image: {
-                url: '/card-image.jpg',
+                url: '/university-of-bath-logo.png',
                 width: 512,
                 height: 128
             },
