@@ -32,14 +32,14 @@ export const WORK_EXPERIENCE_DATA = {
             date: 'Jul 2021 - May 2023', 
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laboriosam nihil pariatur nemo sapiente optio molestiae culpa placeat, ratione voluptatem repellat ullam nulla incidunt beatae temporibus harum quibusdam hic.", 
             image: {
-                url: '/card-image.jpg',
+                url: '/echobox-logo.png',
                 width: 512,
                 height: 128
             },
             skills: ['JAVA', 'APEX', 'SALESFORCE']
         },
         { 
-            title: 'J.P. Morgan', 
+            title: 'J.P. Morgan',  
             subtitle: 'Spring Into Technology Intern', 
             date: 'Mar 2020 - Apr 2020', 
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laboriosam nihil pariatur nemo sapiente optio molestiae culpa placeat, ratione voluptatem repellat ullam nulla incidunt beatae temporibus harum quibusdam hic.", 
@@ -105,7 +105,7 @@ export const PROJECT_DATA = {
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus laboriosam nihil pariatur nemo sapiente optio molestiae culpa placeat, ratione voluptatem repellat ullam nulla incidunt beatae temporibus harum quibusdam hic.", 
             skills: ['PYTHON', 'FINANCE'],
             image: {
-                url: '/card-image.jpg',
+                url: '/demo-gif.gif',
                 width: 512,
                 height: 128
             },

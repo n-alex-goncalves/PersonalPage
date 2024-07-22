@@ -43,7 +43,7 @@ const Card = ({ title, subtitle, date, description, image, githubLink, pageLink,
             </h2>)}
         </div>)}
         {/* CARD BODY */}
-        <div className="card-body flex flex-col p-5 w-2/3">
+        <div className="card-body flex flex-col flex-wrap p-5 w-2/3">
           <h2 className="card-title text-xl group-hover/edit:underline font-bold">{title}</h2>
           <p>{description}</p>
         </div>
