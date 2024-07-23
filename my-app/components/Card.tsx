@@ -7,7 +7,9 @@ type ImageData = {
   url: string;
   width: number;
   height: number;
+  responsiveWidth: string;
 }
+
 type Card = {
   title: string;
   subtitle?: string;
@@ -21,29 +23,28 @@ type Card = {
 
 const Card = ({ title, subtitle, date, description, image, githubLink, pageLink, skills }: Card) => {
   return (
-    <div className={`card flex flex-col w-full bg-base-100 shadow-xl transition duration-300 ease-in-out`}>
-      <div className="card flex flex-row text-wrap">
-        {/* CARD IMAGE AND INFO */}
+    <div className={`card rounded-lg w-full bg-base-100 shadow-xl transition duration-300 ease-in-out`}>
+      <div className="card flex flex-row">
+        {/* CARD IMAGE AND INFO  */}
         {(image?.url || subtitle || date) && (
-          <div className="flex flex-col p-5 pr-0 w-1/3">
-            {image?.url && (<div className="flex flex-row items-start h-1/2 relative">
+          <div className={`flex flex-col m-5 mr-0 ${ image ? image.responsiveWidth : 'w-1/4' }`}>
+            {image?.url && (<div className={`flex flex-row`}>
               <Image
                 src={image.url}
-                layout="fill"
-                objectFit="contain"
+                width={image.width}
+                height={image.height}
                 alt="Placeholder Image"
-                className="object-cover"
               />
             </div>)}
-            {subtitle && (<h2 className="flex text-md text-gray-200 mt-2">
+            {subtitle && (<h2 className="flex flex-row mt-3 text-md text-gray-200">
               {subtitle}
             </h2>)}
-            {date && (<h2 className="flex pt-1 text-sm text-gray-400">
+            {date && (<h2 className="flex flex-row mt-1 text-sm text-gray-400">
               {date}
             </h2>)}
         </div>)}
         {/* CARD BODY */}
-        <div className="card-body flex flex-col flex-wrap p-5 w-2/3">
+        <div className="card-body flex flex-col p-0 m-5 w-2/3">
           <h2 className="card-title text-xl group-hover/edit:underline font-bold">{title}</h2>
           <p>{description}</p>
         </div>

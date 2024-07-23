@@ -9,12 +9,12 @@ import SideBar from './SideBar'
 const HomePage = () => {
   return (
     <div>
-  <div className="flex flex-row bg-base-200">
+  <div className="flex flex-row bg-base-300">
     <aside className="h-screen sticky top-0">
         <SideBar /> 
     </aside>
     <div>
-        <div className="flex-row h-screen w-full md:w-3/4 ">
+        <div className="flex-row h-screen w-full md:w-4/5">
             <Hero />
         </div>
         <div className="flex-row p-5">
@@ -25,8 +25,8 @@ const HomePage = () => {
         </div>
     </div>
   </div>
-          <Footer />
-          </div>
+  <Footer />
+  </div>
   )
 }
 

@@ -6,9 +6,7 @@ const Footer = () => {
     <footer className="footer bg-neutral text-neutral-content p-10">
       <aside>
         <p>
-          Made with ❤️ in 2024 by Nuno
-          <br />
-          This line is intentionally blank
+          Made with ❤️ in 2024 by Nuno Alexandre Goncalves
         </p>
       </aside>
       <nav>
