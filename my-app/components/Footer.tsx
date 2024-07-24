@@ -3,7 +3,7 @@ import { GitHubIcon, MailIcon, LinkedInIcon } from './Icon'
 
 const Footer = () => {
   return (
-    <footer className="footer bg-neutral text-neutral-content p-10">
+    <footer className="footer bg-neutral-900 text-neutral-content p-10">
       <aside>
         <p>
           Made with ❤️ in 2024 by Nuno Alexandre Goncalves
@@ -23,12 +23,5 @@ const Footer = () => {
     </footer>
   )
 }
-
-{/*
-  github
-  linkedin
-  envelope
-  Arrow up right square fill
-  */}
 
 export default Footer

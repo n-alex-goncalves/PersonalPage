@@ -9,7 +9,7 @@ import SideBar from './SideBar'
 const HomePage = () => {
   return (
     <div>
-  <div className="flex flex-row bg-base-300">
+  <div className="flex flex-row bg-neutral-950">
     <aside className="h-screen sticky top-0">
         <SideBar /> 
     </aside>

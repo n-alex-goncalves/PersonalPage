@@ -23,7 +23,7 @@ type Card = {
 
 const Card = ({ title, subtitle, date, description, image, githubLink, pageLink, skills }: Card) => {
   return (
-    <div className={`card rounded-lg w-full bg-base-100 shadow-xl transition duration-300 ease-in-out`}>
+    <div className={`card rounded-lg w-full bg-neutral-900 transition duration-300 ease-in-out`}>
       <div className="card flex flex-row">
         {/* CARD IMAGE AND INFO  */}
         {(image?.url || subtitle || date) && (
@@ -51,14 +51,14 @@ const Card = ({ title, subtitle, date, description, image, githubLink, pageLink,
     </div>
       {/* CARD FOOTER */}
       {(githubLink || pageLink || skills) && (
-        <div className="card-footer flex flex-row items-center mb-3 border-0 border-sky-400">
+        <div className="card-footer flex flex-row items-center pb-3">
           {githubLink && <div className="pl-5">
             <GitHubIcon height={24} width={24} link={githubLink} />
           </div>}
           {pageLink && <div className="pl-5">
             <PageIcon height={24} width={24} link={pageLink} />
           </div>}
-          {skills && <h3 className="pl-5 mb-1 font-bold text-yellow-200 text-sm mt-0.5">
+          {skills && <h3 className="ml-5 mb-1 font-bold text-amber-200 text-sm">
             {skills.map((skill) => skill).join(', ')}
           </h3>}
         </div>

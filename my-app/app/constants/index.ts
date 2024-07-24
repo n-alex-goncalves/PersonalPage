@@ -77,6 +77,7 @@ export const WORK_EXPERIENCE_DATA = {
                 height: 70,
                 responsiveWidth: 'w-1/3',
             },
+            skills: ['FINANCE', 'CYBERSECURITY']
         },
         // Add more card objects as needed
     ]
