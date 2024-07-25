@@ -5,12 +5,12 @@ import HoverUnderline from './HoverUnderline';
 type IconProps = {
     height: number;
     width: number;
-    link: string;
+    link?: string;
 }
 
 /* All SVG icons were sourced from Bootstrap */
 
-export const LinkedInIcon = ({ width, height, link }: IconProps) => {
+export const LinkedInIcon = ({ width, height, link = '#' }: IconProps) => {
     return (
         <HoverUnderline variant={"bg-slate-50"} groupName={"linkedin"}>
             <Link href={link} target="_blank">
@@ -29,7 +29,7 @@ export const LinkedInIcon = ({ width, height, link }: IconProps) => {
     )
 }
 
-export const GitHubIcon = ({ width, height, link }: IconProps) => {
+export const GitHubIcon = ({ width, height, link = '#' }: IconProps) => {
     return (
         <HoverUnderline variant={"bg-slate-50"} groupName={"github"}>
             <Link href={link} target="_blank">
@@ -51,7 +51,7 @@ export const GitHubIcon = ({ width, height, link }: IconProps) => {
 export const MailIcon = ({ width, height }: IconProps) => {
     return (
         <HoverUnderline variant={"bg-slate-50"} groupName={"mail"}>
-            <Link href="/" target="_blank">
+            <Link href="mailto:n.alexandre.goncalves01@gmail.com" target="_blank">
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     width={width} 
@@ -67,7 +67,7 @@ export const MailIcon = ({ width, height }: IconProps) => {
     )
 }
 
-export const PageIcon = ({ width, height, link }: IconProps) => {
+export const PageIcon = ({ width, height, link = '#' }: IconProps) => {
     return (
         <HoverUnderline variant={"bg-slate-50"} groupName={"page"}>
             <Link href={link} target="_blank">
@@ -90,8 +90,16 @@ export const PageIcon = ({ width, height, link }: IconProps) => {
 
 export const ArrowIcon = ({ width, height }: IconProps) => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
-        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+        <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            width={width} 
+            height={height} 
+            fill="currentColor" 
+            className="bi bi-caret-down-fill" 
+            viewBox="0 0 16 16"
+        >
+            <path 
+                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
         </svg>
     )
 }

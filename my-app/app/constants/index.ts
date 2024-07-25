@@ -21,7 +21,7 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'Barclays', 
             subtitle: 'LifeSkills Youth Advisory Councillor', 
             date: 'Jan 2020 - May 2023', 
-            description: "Led presentations in underprivileged schools, in collaboration with the Talent Foundry charity, to motivate students in preparation for their GCSE exams. Volunteered as a youth panelist to over 300 educators in LifeSkills Unpacked.",
+            description: "Led presentations in underprivileged schools, in collaboration with the Talent Foundry charity, to motivate students in preparation for their GCSE exams. Volunteered as a youth panelist to discuss nationwide employability skills to over 300 educators in LifeSkills Unpacked.",
             image: {
                 url: '/barclays-logo-3.png',
                 width: 180,
@@ -33,7 +33,7 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'University of Bath', 
             subtitle: 'Administrative Assistant', 
             date: 'Nov 2021 - Jun 2022',
-            description: "Conducted quality checks on course descriptions, guaranteeing accuracy for over 50+ university offerings. Identified and corrected system errors prior to web publication.",
+            description: "Conducted quality checks on course descriptions, guaranteeing accuracy for over 50+ university offerings. Identified and corrected course errors prior to web publication.",
             image: {
                 url: '/university-of-bath-logo.png',
                 width: 180,
@@ -45,7 +45,7 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'University of Bath', 
             subtitle: 'Computer Science Student Ambassador', 
             date: 'Jan 2020 - Oct 2021',
-            description: "Conducted campus tours for parents and prospective students by answering their concerns and enhancing their on-campus experience. Volunteered for virtual and in-person Q&A sessions for over 50 individuals.",
+            description: "Conducted campus tours for parents and prospective students by answering their concerns and queries about the on-campus experience. Volunteered for virtual and in-person Q&A sessions for over 50 individuals.",
             image: {
                 url: '/university-of-bath-logo.png',
                 width: 180,
