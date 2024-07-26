@@ -15,7 +15,7 @@ const SideBar = () => {
     <div className="drawer-side">
         <ul className="ml-5 bg-neutral-950 min-h-full w-72 p-4">
         <SideBarLink name="Home" link="/" />
-        <SideBarLink name="Resume" link="/Nuno Goncalves CV.pdf" target={true} />
+        <SideBarLink name="Resume" link="./Nuno Goncalves CV.pdf" target={true} />
         <SideBarLink name="LinkedIn" link="https://www.linkedin.com/in/n-alex-goncalves/" target={true} />
         <SideBarLink name="GitHub" link="https://github.com/n-alex-goncalves" target={true} />
         </ul>

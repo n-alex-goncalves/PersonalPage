@@ -25,8 +25,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-/*
-w-3/5
-w-1/5
-*/
