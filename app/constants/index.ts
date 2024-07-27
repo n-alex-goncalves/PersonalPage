@@ -57,7 +57,7 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'Echobox', 
             subtitle: 'Operation Intern', 
             date: 'Jul 2021 - Aug 2021', 
-            description: "Analyzed 40% of Echobox’s customer base in Q3 by reviewing 200–360 customers weekly and added 2,000+ accounts into Salesforce. Developed a Salesforce backend solution using Salesforce Flow, Apex to reduce no-shows in BDR meetings.",            
+            description: "Analyzed 40% of Echobox's customer base in Q3 by reviewing 200–360 customers weekly and added 2,000+ accounts into Salesforce. Developed a Salesforce backend solution using Salesforce Flow, Apex to reduce no-shows in BDR meetings.",            
             image: {
                 url: './echobox-logo.png',
                 width: 180,
