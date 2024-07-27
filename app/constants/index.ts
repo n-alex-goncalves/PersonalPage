@@ -35,7 +35,7 @@ export const WORK_EXPERIENCE_DATA = {
             date: 'Nov 2021 - Jun 2022',
             description: "Conducted quality checks on course descriptions, guaranteeing accuracy for over 50+ university offerings. Identified and corrected course errors prior to web publication.",
             image: {
-                url: '/university-of-bath-logo.png',
+                url: './university-of-bath-logo.png',
                 width: 180,
                 height: 70,
                 responsiveWidth: 'w-1/3',
