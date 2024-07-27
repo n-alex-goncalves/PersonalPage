@@ -13,7 +13,7 @@ const Hero = () => {
                 </p>
                 <p className="text-1xl py-1">
                     I collaborate with clients to develop web applications and back-end APIs. 
-                    I have a passion for mathematics, logical problem-solving, and putting my best effort into everything I do.
+                    I'm passionate about discrete pure mathematics, statistical problem-solving, and engineering the best solution possible. 
                 </p>
             </div>
         </div>
