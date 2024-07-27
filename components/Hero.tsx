@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="max-w-lg">
                 <h1 className="text-5xl font-bold">Hey, I&apos;m Nuno</h1>
                 <p className="text-1xl py-6">
-                    I&apos;m a Software Engineer who specializes in backend development. <span className="text-amber-200 font-bold">Python, C++, AWS Cloud and more.</span>
+                    I&apos;m a Software Engineer who specializes in backend development and data driven solutions. <span className="text-amber-200 font-bold">Python, C++, AWS Cloud, CI/CD and more.</span>
                 </p>
                 <p className="text-1xl py-1">
                     I collaborate with clients to develop web applications and back-end APIs. 
