@@ -51,7 +51,7 @@ export const GitHubIcon = ({ width, height, link = '#' }: IconProps) => {
 export const MailIcon = ({ width, height }: IconProps) => {
     return (
         <HoverUnderline variant={"bg-slate-50"} groupName={"mail"}>
-            <Link href="mailto:n.alexandre.goncalves01@gmail.com" target="_blank">
+            <Link href="mailto:goncalvesnuno01@gmail.com" target="_blank">
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     width={width} 

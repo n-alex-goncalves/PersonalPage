@@ -24,10 +24,10 @@ type Card = {
 const Card = ({ title, subtitle, date, description, image, githubLink, pageLink, skills }: Card) => {
   return (
     <div className={`card rounded-2xl w-full bg-neutral-900 transition duration-300 ease-in-out`}>
-      <div className="card flex flex-row">
+      <div className="card flex flex-col md:flex-row">
         {/* CARD IMAGE AND INFO  */}
         {(image?.url || subtitle || date) && (
-          <div className={`flex flex-col m-5 mr-0 ${ image ? image.responsiveWidth : 'w-1/4' }`}>
+          <div className={`flex flex-col m-5 mr-0 md:${ image ? image.responsiveWidth : 'w-1/4' }`}>
             {image?.url && (<div className={`flex flex-row`}>
               <Image
                 src={image.url}
