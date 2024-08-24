@@ -5,7 +5,7 @@ import { ArrowIcon } from './Icon'
 const Hero = () => {
   return (
     <div className="hero bg-base-200 min-h-screen min-w-full">
-    <div className="hero-content text-center">
+    <div className="hero-content text-center m-4">
         <div className="max-w-md">
         <h1 className="text-5xl font-bold">Hey, I&apos;m Nuno</h1>
         <p className="text-1xl py-6">

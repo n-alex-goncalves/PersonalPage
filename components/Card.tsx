@@ -36,7 +36,7 @@ const Card = ({ title, subtitle, date, description, image, githubLink, pageLink,
                 alt="Placeholder Image"
               />
             </div>)}
-            {subtitle && (<h2 className="flex flex-row mt-3 text-md text-gray-200">
+            {subtitle && (<h2 className="flex flex-row mt-3 mr-3 text-md text-gray-200">
               {subtitle}
             </h2>)}
             {date && (<h2 className="flex flex-row mt-1 text-sm text-gray-400">
@@ -44,12 +44,8 @@ const Card = ({ title, subtitle, date, description, image, githubLink, pageLink,
             </h2>)}
         </div>)}
         {/* CARD BODY */}
-        {/* <div className="card-body flex flex-col p-0 m-5 w-2/3">
-          <h2 className="card-title text-xl group-hover/edit:underline font-bold">{title}</h2>
-          <p>{description}</p>
-        </div> */}
         <div className="w-auto">
-          <h2 className="m-5 mb-0 text-xl font-bold">{title}</h2>
+          <h2 className="ml-5 mb-0 md:mt-5 text-xl font-bold">{title}</h2>
           <p className="flex flex-col m-5">{description}</p>
         </div>
     </div>
