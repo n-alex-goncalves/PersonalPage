@@ -8,24 +8,20 @@ import SideBar from './SideBar'
 
 const HomePage = () => {
   return (
-    <div>
-  <div className="flex flex-row bg-neutral-950">
-    <aside className="h-screen sticky top-0">
-        <SideBar /> 
-    </aside>
-    <div>
-        <div className="flex-row h-screen w-full md:w-4/5">
-            <Hero />
-        </div>
-        <div className="flex-row p-5">
+    <div className="flex">
+        <aside className="h-screen sticky top-0 z-10">
+            <SideBar /> 
+        </aside>
+        <main className="w-full">
+            <div className="flex-row h-screen">
+                <Hero />
+            </div>
             <CardsTable title={WORK_EXPERIENCE_DATA.title} cards={WORK_EXPERIENCE_DATA.cards}/>
-        </div>
-        <div className="flex-row p-5">
             <CardsTable title={PROJECT_DATA.title} cards={PROJECT_DATA.cards}/>
-        </div>
-    </div>
-  </div>
-  <Footer />
+            <footer>
+            <Footer />
+        </footer>
+        </main>
   </div>
   )
 }

@@ -10,10 +10,10 @@ type SideBarLinkProps = {
 
 const SideBar = () => {
   return (
-    <div className="drawer md:drawer-open">
+    <div className="drawer md:drawer-open w-0">
     <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
     <div className="drawer-side">
-        <ul className="ml-5 bg-neutral-950 min-h-full w-72 p-4">
+        <ul className="ml-5 w-1/4">
         <SideBarLink name="Home" link="/" />
         <SideBarLink name="Resume" link="./Nuno Goncalves CV.pdf" target={true} />
         <SideBarLink name="LinkedIn" link="https://www.linkedin.com/in/n-alex-goncalves/" target={true} />
