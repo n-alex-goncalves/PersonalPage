@@ -7,7 +7,7 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'Infosys', 
             subtitle: 'Specialist Programmer', 
             date: 'Aug 2022 - Present', 
-            description: "Created key classes and APIs using Python, SQLAlchemy, GraphQL, AWS for BP’s global refinery compliance bookkeeping. Awarded the Rising Star certificate for exceptional agile development contributions and leadership.",
+            description: "Created key classes and APIs using Python, SQLAlchemy, GraphQL, AWS for a client's global refinery compliance bookkeeping. Awarded the Rising Star certificate for exceptional agile development contributions and leadership.",
             image: {
                 url: './infosys-logo.png',
                 width: 180,

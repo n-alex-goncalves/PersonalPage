@@ -23,7 +23,7 @@ type Card = {
 
 const Card = ({ title, subtitle, date, description, image, githubLink, pageLink, skills }: Card) => {
   return (
-    <div className={`card rounded-2xl w-full bg-neutral-900 transition duration-300 ease-in-out`}>
+    <div className={`card rounded-none w-full bg-neutral-900 transition duration-300 ease-in-out`}>
       <div className="card flex flex-col md:flex-row">
         {/* CARD IMAGE AND INFO  */}
         {(image?.url || subtitle || date) && (
