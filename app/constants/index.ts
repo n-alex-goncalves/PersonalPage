@@ -102,7 +102,7 @@ export const PROJECT_DATA = {
         },
         { 
             title: 'Bisca Multiplayer', 
-            description: "Recreated the multiplayer card game Bisca using React. Developed a server-client architecture for real-time communication between players.",
+            description: "Recreated the Portuguese multiplayer card game Bisca using React. Created a server-client architecture for real-time communication between players.",
             skills: ['REACT', 'BOOTSTRAP', 'NODE.JS', 'SOCKET.IO'],
             image: {
                 url: './demo-gif.gif',
@@ -114,7 +114,7 @@ export const PROJECT_DATA = {
         },
         { 
             title: 'Lambda Calculus Interpreter', 
-            description: "A web application interpreter that can reduce lambda calculus expressions to their simplest beta normal form. Developed using the applicative-order evaluation strategy and tested via Jest.",            
+            description: "Created a web application interpreter that can reduce lambda calculus expressions to their simplest beta normal form. Developed using the applicative-order evaluation strategy and tested via Jest.",            
             skills: ['JAVASCRIPT', 'LAMBDA CALCULUS', 'JEST'],
             githubLink: 'https://github.com/n-alex-goncalves/LambdaCalculusInterpreter',
             pageLink: 'https://n-alex-goncalves.github.io/LambdaCalculusInterpreter/'

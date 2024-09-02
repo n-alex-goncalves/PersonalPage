@@ -27,7 +27,7 @@ const Card = ({ title, subtitle, date, description, image, githubLink, pageLink,
       <div className="card flex flex-col md:flex-row">
         {/* CARD IMAGE AND INFO  */}
         {(image?.url || subtitle || date) && (
-          <div className="flex flex-col m-5 mr-0 md:w-[46rem]">
+          <div className="flex flex-col m-5 mr-0 mb-0 md:w-[46rem]">
             {image?.url && (<div className={`flex flex-row`}>
               <Image
                 src={image.url}
@@ -45,7 +45,7 @@ const Card = ({ title, subtitle, date, description, image, githubLink, pageLink,
         </div>)}
         {/* CARD BODY */}
         <div className="w-auto">
-          <h2 className="ml-5 mb-0 md:mt-5 text-xl font-bold">{title}</h2>
+          <h2 className="ml-5 mb-0 mt-5 text-xl font-bold">{title}</h2>
           <p className="flex flex-col m-5">{description}</p>
         </div>
     </div>

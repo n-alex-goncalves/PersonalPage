@@ -8,10 +8,10 @@ type CardListProps = {
 
 const CardsTable = ({ title, cards }: CardListProps) => {
   return (
-    <div className="flex justify-center p-5 ml-28">
+    <div className="flex justify-center p-5 md:ml-28">
       <div className="max-w-[96rem]">
         {/* TITLE */}
-        <h1 className="text-lg px-5 gap-6 text-gray-400">{title}</h1>
+        <h1 className="text-lg gap-6 text-gray-400">{title}</h1>
         <div className="grid grid-cols-1 gap-6 p-4 lg:grid-cols-2">
           {cards.map((card, index) => (
             <Card
