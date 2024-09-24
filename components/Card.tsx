@@ -27,7 +27,7 @@ const Card = ({ title, subtitle, date, description, image, githubLink, pageLink,
       <div className="card flex flex-col md:flex-row">
         {/* CARD IMAGE AND INFO  */}
         {(image?.url || subtitle || date) && (
-          <div className="flex flex-col m-5 mr-0 mb-0 md:min-w-[12rem]">
+          <div className="flex flex-col m-5 mr-0 mb-0 md:min-w-[15rem]">
             {image?.url && (<div className={`flex flex-row`}>
               <Image
                 src={image.url}
@@ -36,22 +36,21 @@ const Card = ({ title, subtitle, date, description, image, githubLink, pageLink,
                 alt="Placeholder Image"
               />
             </div>)}
-            {subtitle && (<h2 className="flex flex-row mt-3 mr-3 text-md text-gray-200">
+            {subtitle && (<h2 className="flex flex-row mt-3 mr-3 text-2xl text-gray-200">
               {subtitle}
             </h2>)}
-            {date && (<h2 className="flex flex-row mt-1 text-sm text-gray-400">
+            {date && (<h2 className="flex flex-row mt-3 text-xl text-gray-400">
               {date}
             </h2>)}
         </div>)}
         {/* CARD BODY */}
         <div className="w-auto">
-          <h2 className="ml-5 mb-0 mt-5 text-xl font-bold">{title}</h2>
-          <p className="flex flex-col m-5">{description}</p>
+          <p className="flex flex-col m-5 text-xl">{description}</p>
         </div>
     </div>
       {/* CARD FOOTER */}
       {(githubLink || pageLink || skills) && (
-        <div className="card-footer flex flex-row items-center pb-3">
+        <div className="card-footer flex flex-row items-center py-3">
           {githubLink && <div className="pl-5">
             <GitHubIcon height={24} width={24} link={githubLink} />
           </div>}

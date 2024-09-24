@@ -6,8 +6,8 @@ export const WORK_EXPERIENCE_DATA = {
         { 
             title: 'Infosys', 
             subtitle: 'Specialist Programmer', 
-            date: 'Aug 2022 - Present', 
-            description: "Created key classes and APIs using Python, SQLAlchemy, GraphQL, AWS for a client's global refinery compliance bookkeeping. Awarded the Rising Star certificate for exceptional agile development contributions and leadership.",
+            date: 'Aug 2022 – Present', 
+            description: "Built backend Python APIs using SQLAlchemy, GraphQL, AWS to serve/model PostgreSQL fuel cost data to the frontend, achieving fast response times of under 2.1 seconds.",
             image: {
                 url: './infosys-logo.png',
                 width: 180,
@@ -20,8 +20,8 @@ export const WORK_EXPERIENCE_DATA = {
         { 
             title: 'Barclays', 
             subtitle: 'LifeSkills Youth Advisory Councillor', 
-            date: 'Jan 2020 - May 2023', 
-            description: "Led presentations in underprivileged schools, in collaboration with the Talent Foundry charity, to motivate students in preparation for their GCSE exams. Volunteered as a youth panelist to discuss nationwide employability skills to over 300 educators in LifeSkills Unpacked.",
+            date: 'Jan 2020 – May 2023', 
+            description: "Selected as a panellist at the Barclays LifeSkills Unpacked seminar, helping over 300 teachers nationally on integrating career-ready skills into their curriculum to prepare students for the workforce.",
             image: {
                 url: './barclays-logo-3.png',
                 width: 180,
@@ -32,7 +32,7 @@ export const WORK_EXPERIENCE_DATA = {
         { 
             title: 'University of Bath', 
             subtitle: 'Administrative Assistant', 
-            date: 'Nov 2021 - Jun 2022',
+            date: 'Nov 2021 – Jun 2022',
             description: "Conducted quality checks on course descriptions, guaranteeing accuracy for over 50+ university offerings. Identified and corrected course errors prior to web publication.",
             image: {
                 url: './university-of-bath-logo.png',
@@ -44,7 +44,7 @@ export const WORK_EXPERIENCE_DATA = {
         { 
             title: 'University of Bath', 
             subtitle: 'Computer Science Student Ambassador', 
-            date: 'Jan 2020 - Oct 2021',
+            date: 'Jan 2020 – Oct 2021',
             description: "Conducted campus tours for parents and prospective students by answering their concerns and queries about the on-campus experience. Volunteered for virtual and in-person Q&A sessions for over 50 individuals.",
             image: {
                 url: './university-of-bath-logo.png',
@@ -56,8 +56,8 @@ export const WORK_EXPERIENCE_DATA = {
         { 
             title: 'Echobox', 
             subtitle: 'Operation Intern', 
-            date: 'Jul 2021 - Aug 2021', 
-            description: "Analyzed 40% of Echobox's customer base in Q3 by reviewing 200–360 customers weekly and added 2,000+ accounts into Salesforce. Developed a Salesforce backend solution using Salesforce Flow, Apex to reduce no-shows in BDR meetings.",            
+            date: 'Jul 2021 – Aug 2021', 
+            description: "Analyzed 40% of Echobox's customer base in Q3, researched 200 – 360 customers weekly and added 2,000+ new company accounts into Salesforce, greatly enhancing Echobox's customer insights.",            
             image: {
                 url: './echobox-logo.png',
                 width: 180,
@@ -69,8 +69,8 @@ export const WORK_EXPERIENCE_DATA = {
         { 
             title: 'J.P. Morgan',  
             subtitle: 'Spring Into Technology Intern', 
-            date: 'Mar 2020 - Apr 2020', 
-            description: "Completed the J.P. Morgan Spring into Technology program, which introduces undergraduates to the fintech industry. Attended workshops on distributed databases, cybersecurity, and machine learning, gaining practical insights into the industry.",
+            date: 'Mar 2020 – Apr 2020', 
+            description: "Participated in fintech workshops focused on distributed databases, cybersecurity, and machine learning, gaining insights into core fintech technologies and the ordinary day-to-day proceedings.",
             image: {
                 url: './jp-morgan-logo.svg',
                 width: 180,

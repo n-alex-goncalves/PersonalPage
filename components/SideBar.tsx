@@ -26,7 +26,7 @@ const SideBar = () => {
 
 const SideBarLink = ({ name, link, target = false }: SideBarLinkProps) => {
   return (
-    <li className="pt-2">
+    <li className="pt-2 text-xl">
       <HoverUnderline groupName={name} variant={"bg-slate-50"}>
         <Link href={link} {...(target ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
           {name}
