@@ -70,7 +70,7 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'J.P. Morgan',  
             subtitle: 'Spring Into Technology Intern', 
             date: 'Mar 2020 – Apr 2020', 
-            description: "Participated in fintech workshops focused on distributed databases, cybersecurity, and machine learning, gaining insights into core fintech technologies and the ordinary day-to-day proceedings.",
+            description: "Participated in fintech workshops focused on distributed databases, cybersecurity, and machine learning, gaining insights into core fintech technologies",
             image: {
                 url: './jp-morgan-logo.svg',
                 width: 180,
@@ -89,7 +89,7 @@ export const PROJECT_DATA = {
     cards: [
         { 
             title: 'Turing Machine Lambda Calculus Interpreter', 
-            description: "Created a web application and interpreter for translating between the weak lambda calculus and Turing machines within polynomial time.",            
+            description: "Built a bidirectional Turing machine and lambda calculus translator using JavaScript, Bootstrap, Jest, validating the Church-Turing Thesis in polynomial time.",            
             skills: ['JAVASCRIPT', 'LAMBDA CALCULUS', 'TURING MACHINE'],
             image: {
                 url: './turing-machine-lambda-calculus-gif.gif',
@@ -114,14 +114,14 @@ export const PROJECT_DATA = {
         },
         { 
             title: 'Lambda Calculus Interpreter', 
-            description: "Created a web application interpreter that can reduce lambda calculus expressions to their simplest beta normal form. Developed using the applicative-order evaluation strategy and tested via Jest.",            
+            description: "Created a JavaScript web application interpreter that reduces lambda calculus expressions to their simplest beta normal form. Tested via Jest.",            
             skills: ['JAVASCRIPT', 'LAMBDA CALCULUS', 'JEST'],
             githubLink: 'https://github.com/n-alex-goncalves/LambdaCalculusInterpreter',
             pageLink: 'https://n-alex-goncalves.github.io/LambdaCalculusInterpreter/'
         },
         { 
             title: 'Options Pricing Calculator', 
-            description: "Created a C++ program that calculates the price of a European call option using the Black-Scholes option pricing model. Created for educational purposes and tested using Google Test.",            
+            description: "Built a C++ program that calculates the price of a European call option using the Black-Scholes option pricing model. Tested using Google Test.",            
             skills: ['C++', 'FINANCE', 'GOOGLE TEST'],
             githubLink: 'https://github.com/n-alex-goncalves/OptionsPricingCalculator'
         },

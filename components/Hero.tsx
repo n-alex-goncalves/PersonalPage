@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="hero-content text-center m-4">
         <div className="max-w-md">
         <h1 className="text-5xl font-bold">Hi, I&apos;m Nuno—</h1>
-        <p className="text-3xl py-6">
+        <p className="text-3xl py-6 w-full">
           a Software Engineer, book hobbyist, occassional community volunteer near London, England.
         </p>
         <p className="text-2xl py-3">
