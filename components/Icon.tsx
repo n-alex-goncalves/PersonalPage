@@ -15,7 +15,7 @@ export const LinkedInIcon = ({ width, height, link = '#' }: IconProps) => {
         <HoverUnderline variant={"bg-slate-50"} groupName={"linkedin"}>
             <Link href={link} target="_blank">
                 <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
+                    xmlns="https://www.w3.org/2000/svg" 
                     width={width} 
                     height={height}
                     fill="currentColor" 
@@ -34,7 +34,7 @@ export const GitHubIcon = ({ width, height, link = '#' }: IconProps) => {
         <HoverUnderline variant={"bg-slate-50"} groupName={"github"}>
             <Link href={link} target="_blank">
                 <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
+                    xmlns="https://www.w3.org/2000/svg" 
                     width={width} 
                     height={height}
                     fill="currentColor" 
@@ -53,7 +53,7 @@ export const MailIcon = ({ width, height }: IconProps) => {
         <HoverUnderline variant={"bg-slate-50"} groupName={"mail"}>
             <Link href="mailto:goncalvesnuno01@gmail.com" target="_blank">
                 <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
+                    xmlns="https://www.w3.org/2000/svg" 
                     width={width} 
                     height={height}
                     fill="currentColor" 
@@ -72,7 +72,7 @@ export const PageIcon = ({ width, height, link = '#' }: IconProps) => {
         <HoverUnderline variant={"bg-slate-50"} groupName={"page"}>
             <Link href={link} target="_blank">
                 <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
+                    xmlns="https://www.w3.org/2000/svg" 
                     width={width} 
                     height={height} 
                     fill="currentColor" 
@@ -91,7 +91,7 @@ export const PageIcon = ({ width, height, link = '#' }: IconProps) => {
 export const ArrowIcon = ({ width, height }: IconProps) => {
     return (
         <svg 
-            xmlns="http://www.w3.org/2000/svg" 
+            xmlns="https://www.w3.org/2000/svg" 
             width={width} 
             height={height} 
             fill="currentColor" 

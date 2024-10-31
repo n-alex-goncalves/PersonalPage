@@ -1,8 +1,6 @@
 import React from 'react'
 import { ArrowIcon } from './Icon'
 
-// <span className="text-amber-200 font-bold">Python, C++, TypeScript, React, AWS Cloud, and more.</span>
-
 const Hero = () => {
   return (
     <div className="hero min-h-screen min-w-full">
