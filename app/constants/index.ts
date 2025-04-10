@@ -5,7 +5,7 @@ I build data-intensive tools that help clients make informed decisions. After ea
 
 I spend a lot of time learning—through books (currently reading Manufacturing Consent by Edward Herman and Noam Chomsky), Anki flashcards, Discord study groups, side projects, or asking questions.
 
-If you'd like to connect and/or ask for some insight, feel free to reach out via LinkedIn.
+If you'd like to connect and/or ask for some insight, please feel free to reach out via LinkedIn.
 `
 
 // Work experience cards
