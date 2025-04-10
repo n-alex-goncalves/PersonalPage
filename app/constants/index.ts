@@ -1,3 +1,12 @@
+// Profile
+export const ABOUT_ME = `Hi, I'm Nuno. I'm a software engineer based near and around London, with an interest in data science, finance, and quantitative systems.
+
+I build data-intensive tools that help clients make informed decisions. After earning a First Class Honours in Computer Science from the University of Bath, I joined Infosys, where I develop high-performance APIs and AI-powered applications using Python, SQLAlchemy, and OpenAI models.
+
+I spend a lot of time learning—through books (currently reading Manufacturing Consent by Edward Herman and Noam Chomsky), Anki flashcards, Discord study groups, side projects, or asking questions.
+
+If you'd like to connect and/or ask for some insight, feel free to reach out via LinkedIn.
+`
 
 // Work experience cards
 export const WORK_EXPERIENCE_DATA = {
@@ -7,7 +16,11 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'Infosys', 
             subtitle: 'Specialist Programmer', 
             date: 'Aug 2022 – Present', 
-            description: "Built backend Python APIs using SQLAlchemy, GraphQL, AWS to serve/model PostgreSQL fuel cost data to the frontend, achieving fast response times of under 2.1 seconds. Awarded the Rising Star Award (March 2024) due to exceptional team contributions.",
+            description: `Built backend Python APIs using SQLAlchemy, GraphQL, AWS to serve/model PostgreSQL fuel cost data to the frontend, achieving fast response times of under 2.1 seconds.
+            
+            Built an email mining application using AI, Azure, Python, SQLAlchemy to extract extract information from email data via an ETL pipeline for RAG.
+            
+            Awarded the Rising Star Award (March 2024) due to exceptional team contributions.`,
             image: {
                 url: './infosys-logo.png',
                 width: 180,
@@ -21,7 +34,7 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'Barclays', 
             subtitle: 'LifeSkills Youth Advisory Councillor', 
             date: 'Jan 2020 – May 2023', 
-            description: "Selected as a panellist at the Barclays LifeSkills Unpacked seminar, helping over 300 teachers nationally on integrating career-ready skills into their curriculum to prepare students for the workforce.",
+            description: "Selected as a panellist at the Barclays LifeSkills Unpacked seminar, helping over 300 teachers nationwide integrate career readiness and soft skills into their curriculum to prepare students for the workforce.\n\nDelivered workshops to students from underprivileged schools in Taunton Deane, Somerset and Bury, Greater Manchester to motivate and support their exam preparation.",
             image: {
                 url: './barclays-logo-3.png',
                 width: 180,
@@ -72,7 +85,7 @@ export const WORK_EXPERIENCE_DATA = {
             date: 'Mar 2020 – Apr 2020', 
             description: "Participated in fintech workshops focused on distributed databases, cybersecurity, and machine learning, gaining insights into core fintech technologies.",
             image: {
-                url: './jp-morgan-logo.svg',
+                url: './jp-morgan-logo.png',
                 width: 180,
                 height: 70,
                 responsiveWidth: 'w-1/3',
@@ -82,6 +95,7 @@ export const WORK_EXPERIENCE_DATA = {
         // Add more card objects as needed
     ]
 };
+
 
 // Project cards
 export const PROJECT_DATA = {
@@ -114,7 +128,7 @@ export const PROJECT_DATA = {
         },
         { 
             title: 'Lambda Calculus Interpreter', 
-            description: "Created a JavaScript web application interpreter that reduces lambda calculus expressions to their simplest beta normal form. Tested via Jest.",            
+            description: "Built a JavaScript web application interpreter that reduces lambda calculus expressions to their simplest beta normal form. Tested via Jest.",            
             skills: ['JAVASCRIPT', 'LAMBDA CALCULUS'],
             image: {
                 url: './lambda-calculus-gif.gif',

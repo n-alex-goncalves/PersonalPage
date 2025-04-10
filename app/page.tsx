@@ -1,10 +1,13 @@
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
-import HomePage from "@/components/HomePage";
-import Image from "next/image";
+import { ABOUT_ME } from '@/app/constants';
 
-export default function Home() {
+
+export default function About() {
   return (
-    <HomePage />
+    <>
+      <h1 className="text-xl font-semibold mb-6">ABOUT</h1>
+      <p className="whitespace-pre-line leading-relaxed max-w-prose">
+        {ABOUT_ME}
+      </p>
+    </>
   );
 }

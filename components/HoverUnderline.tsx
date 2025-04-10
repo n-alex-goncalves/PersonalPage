@@ -10,7 +10,7 @@ const HoverUnderline = ({ children, variant, groupName }: UnderlineProps) => {
     return (
         <div className={`group inline-block`}>
             <div className={`inline-block`}>{children}</div>
-            <div className={`h-[2px] w-0 group-hover:w-full transition-all duration-500 ${variant}`}></div>
+            <div className={`h-[1px] w-0 group-hover:w-full transition-all duration-500 ${variant}`}></div>
         </div>
     )
 }
