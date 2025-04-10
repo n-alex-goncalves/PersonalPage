@@ -11,7 +11,7 @@ interface ImageData {
   responsiveWidth: string;
 }
 
-interface CardProps {
+export interface CardProps {
   title: string;
   subtitle?: string;
   date?: string;

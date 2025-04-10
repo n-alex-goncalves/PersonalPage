@@ -1,9 +1,9 @@
 import React from 'react';
-import Card from './Card';
+import Card, { CardProps } from './Card';
 
 type CardListProps = {
   title: string;
-  cards: Card[];
+  cards: CardProps[];
 };
 
 const CardsTable = ({ title, cards }: CardListProps) => {
