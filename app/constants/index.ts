@@ -1,5 +1,5 @@
 // Profile
-export const ABOUT_ME = `Hi, I'm Nuno. I'm a software engineer based near and around London, with an interest in data science, finance, and quantitative systems.
+export const ABOUT_ME = `Hi, I'm Nuno. I'm a Specialist Programmer based near and around London, with an interest in data science, finance, and quantitative systems.
 
 I build data-intensive tools that help clients make informed decisions. After earning a First Class Honours in Computer Science from the University of Bath, I joined Infosys, where I develop high-performance APIs and AI-powered applications using Python, SQLAlchemy, and OpenAI models.
 
