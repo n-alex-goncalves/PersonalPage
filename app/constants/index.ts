@@ -1,11 +1,11 @@
 // Profile
-export const ABOUT_ME = `Hi, I'm Nuno. I'm a Specialist Programmer based near and around London, with an interest in data science, finance, and quantitative systems.
+export const ABOUT_ME = `Hi, I'm Nuno Goncalves!
 
-I build data-intensive tools that help clients make informed decisions. After earning a First Class Honours in Computer Science from the University of Bath, I joined Infosys, where I develop high-performance APIs and AI-powered applications using Python, SQLAlchemy, and OpenAI models.
+I'm a Specialist Programmer based near London. I build data-intensive tools that help clients and co-workers make informed decisions. After earning a First Class Honours in Computer Science from the University of Bath, I joined Infosys, where I develop critical APIs and AI-powered applications using Python, SQLAlchemy, AWS, and OpenAI.
 
 I spend a lot of time learning—through books (currently reading Manufacturing Consent by Edward Herman and Noam Chomsky), Anki flashcards, Discord study groups, side projects, or asking questions.
 
-If you'd like to connect and/or ask for some insight, please feel free to reach out via LinkedIn.
+If you'd like to connect or ask for some insight, please feel free to reach out via LinkedIn or email.
 `
 
 // Work experience cards
@@ -16,11 +16,10 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'Infosys', 
             subtitle: 'Specialist Programmer', 
             date: 'Aug 2022 – Present', 
-            description: `Built backend Python APIs using SQLAlchemy, GraphQL, AWS to serve/model PostgreSQL fuel cost data to the frontend, achieving fast response times of under 2.1 seconds.
-            
-            Built an email mining application using AI, Azure, Python, SQLAlchemy to extract extract information from email data via an ETL pipeline for RAG.
-            
-            Awarded the Rising Star Award (March 2024) due to exceptional team contributions.`,
+            description: `Built backend Python APIs using SQLAlchemy, GraphQL, AWS to serve/model PostgreSQL fuel cost data to the frontend, achieving fast response times of under 2.1 seconds.\n
+            Built an email mining application using AI, Azure, Python, SQLAlchemy to extract extract information from email data via an ETL pipeline for RAG.\n
+            Awarded the Rising Star Award (March 2024) due to exceptional team contributions.
+            `,
             image: {
                 url: './infosys-logo.png',
                 width: 180,
@@ -34,7 +33,10 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'Barclays', 
             subtitle: 'LifeSkills Youth Advisory Councillor', 
             date: 'Jan 2020 – May 2023', 
-            description: "Selected as a panellist at the Barclays LifeSkills Unpacked seminar, helping over 300 teachers nationwide integrate career readiness and soft skills into their curriculum to prepare students for the workforce.\n\nDelivered workshops to students from underprivileged schools in Taunton Deane, Somerset and Bury, Greater Manchester to motivate and support their exam preparation.",
+            description: `Appointed to a national youth advisory board shaping Barclays’ LifeSkills strategy; advised and improved digital toolkits used by 1M+ young people annually.\n
+            Featured as a panellist at Barclays LifeSkills Unpacked seminar, helping 300+ educators embed career readiness and soft skills into classroom teaching to better prepare students.\n
+            Delivered workshops to students from underprivileged schools in Taunton Deane, Somerset and Bury, Greater Manchester to motivate and support their exam preparation.
+            `,
             image: {
                 url: './barclays-logo-3.png',
                 width: 180,
