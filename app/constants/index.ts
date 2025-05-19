@@ -154,11 +154,22 @@ export const PROJECT_DATA = {
             githubLink: 'https://github.com/n-alex-goncalves/Chatcord-Clone'
         },
         { 
+            title: 'Template-Based Icon Matching Tool', 
+            description: "Built a Python tool using OpenCV and SIFT to detect and localize specific icons in complex images with 98.5% accuracy and 10.29s runtime.",            
+            skills: ['PYTHON', 'OPENCV', 'SIFT'],
+            image: {
+                url: './stop_recognition_output.png',
+                width: 360, 
+                height: 70,
+                responsiveWidth: 'w-3/4',
+            },
+        },
+        { 
             title: 'Options Pricing Calculator', 
             description: "Built a C++ program that calculates the price of a European call option using the Black-Scholes option pricing model. Tested using Google Test.",            
             skills: ['C++', 'FINANCE', 'GOOGLE TEST'],
             githubLink: 'https://github.com/n-alex-goncalves/OptionsPricingCalculator'
-        }
+        },
         // Add more card objects as needed
     ]
 };
