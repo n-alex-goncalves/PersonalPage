@@ -16,9 +16,11 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'Infosys', 
             subtitle: 'Specialist Programmer', 
             date: 'Aug 2022 – Present', 
-            description: `Built backend Python APIs using SQLAlchemy, GraphQL, AWS to serve/model PostgreSQL fuel cost data to the frontend, achieving fast response times of under 2.1 seconds.\n
-            Built an email mining application using AI, Azure, Python, SQLAlchemy to extract extract information from email data via an ETL pipeline for RAG.\n
-            Awarded the Rising Star Award (March 2024) due to exceptional team contributions.
+            description: `Built backend Python APIs using SQLAlchemy, GraphQL, AWS to serve/model PostgreSQL fuel cost data to the frontend, achieving fast response times of under 2.1 seconds.
+
+            Built an email mining application using AI, Azure, Python, SQLAlchemy to extract extract information from email data via an ETL pipeline for RAG.
+
+            Awarded the Infosys Rising Star Award (March 2024) and Rise Insta Award (December 2024) due to team mentorship and project contributions.
             `,
             image: {
                 url: './infosys-logo.png',
@@ -33,8 +35,10 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'Barclays', 
             subtitle: 'LifeSkills Youth Advisory Councillor', 
             date: 'Jan 2020 – May 2023', 
-            description: `Appointed to a national youth advisory board shaping Barclays’ LifeSkills strategy; advised and improved digital toolkits used by 1M+ young people annually.\n
-            Featured as a panellist at Barclays LifeSkills Unpacked seminar, helping 300+ educators embed career readiness and soft skills into classroom teaching to better prepare students.\n
+            description: `Appointed to a national youth advisory board shaping Barclays’ LifeSkills strategy; advised and improved digital toolkits used by 1M+ young people annually.
+            
+            Featured as a panellist at Barclays LifeSkills Unpacked seminar, helping 300+ educators embed career readiness and soft skills into classroom teaching to better prepare students.
+
             Delivered workshops to students from underprivileged schools in Taunton Deane, Somerset and Bury, Greater Manchester to motivate and support their exam preparation.
             `,
             image: {
@@ -48,7 +52,10 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'University of Bath', 
             subtitle: 'Administrative Assistant', 
             date: 'Nov 2021 – Jun 2022',
-            description: "Performed quality checks on course descriptions, guaranteeing accuracy for over 50+ university offerings. Identified and corrected course errors prior to web publication.",
+            description: `Reviewed and verified course descriptions for over 50 university offerings to ensure accuracy.
+            
+            Identified and corrected errors prior to publication on the university website.
+            `,
             image: {
                 url: './university-of-bath-logo.png',
                 width: 180,
@@ -60,7 +67,9 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'University of Bath', 
             subtitle: 'Computer Science Student Ambassador', 
             date: 'Jan 2020 – Oct 2021',
-            description: "Led campus tours for parents and prospective students. Answered their questions regarding the on-campus experience. Volunteered for virtual and in-person Q&A sessions for over 50+ visitors.",
+            description: `Led campus tours for prospective students and parents, providing insights into student life and campus facilities. 
+            
+            Spoke in virtual and in-person Q&A sessions, answering questions for over 50 visitors.`,
             image: {
                 url: './university-of-bath-logo.png',
                 width: 180,
@@ -72,7 +81,9 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'Echobox', 
             subtitle: 'Operation Intern', 
             date: 'Jul 2021 – Aug 2021', 
-            description: "Analyzed 40% of Echobox's customer base in Q3, researched 200 – 360 customers weekly and added 2,000+ new company accounts into Salesforce, greatly enhancing Echobox's customer insights.",            
+            description: `Analyzed 40% of Echobox's customer base in Q3, researched 200 – 360 customers weekly and added 2,000+ new company accounts into Salesforce, enhancing Echobox's customer insights.
+            
+            Built a Salesforce backend solution to reduce no-shows in BDR meetings using automated reminders in SalesForce Flow and Apex.`,            
             image: {
                 url: './echobox-logo.png',
                 width: 180,
@@ -85,7 +96,10 @@ export const WORK_EXPERIENCE_DATA = {
             title: 'J.P. Morgan',  
             subtitle: 'Spring Into Technology Intern', 
             date: 'Mar 2020 – Apr 2020', 
-            description: "Participated in fintech workshops focused on distributed databases, cybersecurity, and machine learning, gaining insights into core fintech technologies.",
+            description: `Successfully completed the J.P. Morgan Spring into Technology program, gaining foundational fintech knowledge and valuable insights into the industry.
+            
+            Took part in J.P. Morgan workshops on distributed databases, cybersecurity, and machine learning, gaining a deeper understanding of their applications in the industry.
+            `,
             image: {
                 url: './jp-morgan-logo.png',
                 width: 180,
@@ -118,7 +132,7 @@ export const PROJECT_DATA = {
         },
         { 
             title: 'Bisca Multiplayer', 
-            description: "Recreated the Portuguese multiplayer card game Bisca using React. Created a server-client architecture for real-time communication between players.",
+            description: "Recreated the Portuguese multiplayer card game Bisca using React; built using a server-client architecture to enable real-time interaction between players.",
             skills: ['REACT', 'BOOTSTRAP', 'NODE.JS', 'SOCKET.IO'],
             image: {
                 url: './demo-gif.gif',
@@ -130,8 +144,8 @@ export const PROJECT_DATA = {
         },
         { 
             title: 'Lambda Calculus Interpreter', 
-            description: "Built a JavaScript web application interpreter that reduces lambda calculus expressions to their simplest beta normal form. Tested via Jest.",            
-            skills: ['JAVASCRIPT', 'LAMBDA CALCULUS'],
+            description: "Built a JavaScript web app that interprets and reduces lambda calculus expressions to beta normal form; implemented tests using Jest.",            
+            skills: ['JAVASCRIPT', 'LAMBDA CALCULUS', 'JEST'],
             image: {
                 url: './lambda-calculus-gif.gif',
                 width: 360,
@@ -143,7 +157,7 @@ export const PROJECT_DATA = {
         },
         { 
             title: 'Chatcord Application', 
-            description: "Built a realtime vanilla chat application that allows users to join rooms and communicate between users online.",            
+            description: "Built a real-time chat application with vanilla JavaScript, enabling users to join rooms and exchange messages online.",            
             skills: ['JAVASCRIPT', 'NODE.JS', 'SOCKET.IO'],
             image: {
                 url: './chatcord-demo-gif.gif',
@@ -166,9 +180,14 @@ export const PROJECT_DATA = {
         },
         { 
             title: 'Options Pricing Calculator', 
-            description: "Built a C++ program that calculates the price of a European call option using the Black-Scholes option pricing model. Tested using Google Test.",            
+            description: "Built a C++ program that calculates the price of a European call option using the Black-Scholes option pricing model; implemented tests using Google Test.",            
             skills: ['C++', 'FINANCE', 'GOOGLE TEST'],
             githubLink: 'https://github.com/n-alex-goncalves/OptionsPricingCalculator'
+        },
+        { 
+            title: 'Image Reconstruction and Filtering with Gaussian Models', 
+            description: "Used NumPy to reconstruct tilted 2D images with Gaussian blobs and apply image filters (blur, edge detection), with Matplotlib for visualization and Pandas for Gaussian parameters.",            
+            skills: ['PYTHON', 'PANDAS', 'MATPLOTLIB'],
         },
         // Add more card objects as needed
     ]
